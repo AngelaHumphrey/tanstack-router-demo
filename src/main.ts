@@ -1,6 +1,6 @@
 import './style.css';
 
-const main = document.querySelector('#min');
+const main = document.querySelector('#main');
 let num = 0;
 
 setInterval(update, 1000);

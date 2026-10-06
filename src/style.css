@@ -1,7 +1,19 @@
 @import 'tailwindcss';
 
 body {
-    font-family: system-ui, sans-serif;
-    background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
-    min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+  min-height: 100vh;
+}
+
+.logo {
+  background-image: url('./img/clock.png');
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    transform: rotate(10deg);
+  }
 }

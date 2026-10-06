@@ -13,7 +13,9 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
     "@types/jquery": "^4.0.1",
+    "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",
     "vite": "^8.3.2"
   },

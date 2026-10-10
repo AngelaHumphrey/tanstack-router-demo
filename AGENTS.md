@@ -48,8 +48,8 @@ You are helping a student build their own frontend starterpack BY HAND, one tool
 
 ## Student Background
 
-- Completed: HTML, CSS (flexbox, selectors, `:has()`), Chrome DevTools, JavaScript and the DOM, a JSON-driven quiz (Lab 2), git feature branches and pull requests
-- New to: npm, build tools, TypeScript (and `@types/` packages for libraries), Tailwind, linters and formatters
+- Completed: HTML, CSS (flexbox, selectors, `:has()`), Chrome DevTools, JavaScript and the DOM, a JSON-driven quiz (Lab 2), git feature branches and pull requests, frontend starterpack (npm, vite, TypeScript, Tailwind, linters, and formatters)
+- New to: React (JSX, components, props, `useState`, `useEffect`); React was just added to the starterpack (`react`, `react-dom`, `@vitejs/plugin-react`, `"jsx": "react-jsx"`)
 - This starterpack grows over the term (React, routing, state). When a new piece is added, update this section.
 
 ## Safety

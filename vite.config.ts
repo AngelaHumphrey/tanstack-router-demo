@@ -9,4 +9,5 @@ export default defineConfig({
     tailwindcss(),
     checker({ typescript: true, oxlint: true, enableBuild: false }),
   ],
+  resolve: { tsconfigPaths: true },
 });

@@ -1,4 +1,4 @@
-import Test from '#/components/Test.tsx';
+// import Test from '#/components/Test.tsx';
 import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/test/$id')({

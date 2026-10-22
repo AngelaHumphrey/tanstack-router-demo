@@ -1,24 +1,24 @@
-import { NavLink } from 'react-router';
+import { Link } from "@tanstack/react-router";
 
 export default function Nav() {
   return (
     <nav>
       <ul className="flex gap-6 text-lg font-semibold">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <NavLink to="/test/id1">test id1</NavLink>
+          <Link to="/test/$id" params={{id: "id1"}} search={{page: 2}}>test id1</Link>
         </li>
         <li>
-          <NavLink to="/test/id2">test id2</NavLink>
+          <Link to="/test/$id" params={{id: "id2"}} search={{page: 4}}>test id2</Link>
         </li>
-        <li>
-          <NavLink to="/badlink">bad link</NavLink>
-        </li>
+        {/* <li>
+          <Link to="/badlink">bad link</Link>
+        </li> */}
       </ul>
     </nav>
   );

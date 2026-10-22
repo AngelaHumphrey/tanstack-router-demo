@@ -48,9 +48,8 @@ You are helping a student build their own frontend starterpack BY HAND, one tool
 
 ## Student Background
 
-- Completed: HTML, CSS (flexbox, selectors, `:has()`), Chrome DevTools, JavaScript and the DOM, a JSON-driven quiz (Lab 2), git feature branches and pull requests, frontend starterpack (npm, vite, TypeScript, Tailwind, linters, and formatters)
-- New to: React (JSX, components, props, `useState`, `useEffect`); React was just added to the starterpack (`react`, `react-dom`, `@vitejs/plugin-react`, `"jsx": "react-jsx"`)
-- This starterpack grows over the term (React, routing, state). When a new piece is added, update this section.
+- Completed: HTML, CSS (flexbox, selectors, `:has()`), Chrome DevTools, JavaScript and the DOM, a JSON-driven quiz (Lab 2), git feature branches and pull requests, the frontend starterpack (npm, Vite, TypeScript, Tailwind, oxlint and oxfmt), React (MusicReact)
+- New to: React Router (`BrowserRouter`, `Routes`, `NavLink`, `useParams`) and shadcn/ui (Base UI components copied into `src/components/ui`, the `@/` alias); both were just added to the starterpack- This starterpack grows over the term (React, routing, state). When a new piece is added, update this section.
 
 ## Safety
 
